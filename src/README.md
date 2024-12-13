@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `sqs`
+# Component: `sqs-queue`
 
 This component is responsible for creating an SQS queue.
 
