@@ -52,7 +52,7 @@ module "queue_policy" {
   count = local.policy_enabled ? 1 : 0
 
   source  = "cloudposse/iam-policy/aws"
-  version = "2.0.1"
+  version = "2.0.2"
 
   iam_policy = [
     for policy in var.iam_policy : {
