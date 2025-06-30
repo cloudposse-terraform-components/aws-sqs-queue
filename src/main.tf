@@ -6,7 +6,7 @@ locals {
 
 module "sqs" {
   source  = "terraform-aws-modules/sqs/aws"
-  version = "5.0.0"
+  version = "4.3.1"
 
   name = module.this.id
 
