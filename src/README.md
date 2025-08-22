@@ -8,7 +8,6 @@ tags:
 # Component: `sqs-queue`
 
 This component is responsible for creating an SQS queue.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -68,8 +67,8 @@ components:
                       - "arn:aws:s3:::*"
 ```
 
-<!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -157,12 +156,17 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_sqs_queue"></a> [sqs\_queue](#output\_sqs\_queue) | The SQS queue. |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/sqs-queue) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-sqs-queue&utm_content=)
+
